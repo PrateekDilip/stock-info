@@ -1,13 +1,15 @@
 Brief: 
-This script scrapes nasdaq website to get the traded price for that instant and emails you the summary in tabular format.
-
+This script scrapes nasdaq website to get the traded price for that instant and emails you the summary in tabular format. NASDAQ searches for the following exchanges:
+NASDAQ
+NYSE
+AMEX
+OTCBB/Other OTC
+PSE
 
 How to run:
 This expects a file as an input. The contents of file should be the list of companies you want to monitor for ex. AMZN, GOOG etc. 
 
-
 Just execute "python2 stock.quote.py" in the doirectory where you have kept the input(company) file. This is a UTed script for python2.7. You need to change couple of parameters in the script like host, to list for email etc. Its mentioned in the script. 
-
 
 Requirements:
 Beautiful soup
